@@ -1,7 +1,6 @@
 ﻿using System;
 public class Program
 {
-    static string weekdayInput = "4";
     static int weekdayProcessor = 0;
 
 	static bool runBool = true;
@@ -11,8 +10,8 @@ public class Program
             " day it is" + " \nPick number 7 to end the program");
 		
 		while(runBool == true){
-	    weekdayInput = Console.ReadLine();
-        weekdayProcessor = int.Parse(weekdayInput);//
+        weekdayProcessor = int.Parse(Console.ReadLine());
+		//turn the readline into an int with 1 line
         
         
         int weekdaying = weekdayProcessor;
